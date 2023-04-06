@@ -1,0 +1,132 @@
+* {
+    color: seashell;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2 h3 h4 p {
+    opacity: 0.9;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    height: 69px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.logo-tea {
+    margin-left: 0;
+}
+
+.logo-tea img {
+    display: flex;
+    height: 50px;
+}
+
+.navigation {
+    text-decoration: underline;
+    display: flex;
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.navigation li {
+    padding-left: 10px;
+}
+
+.background-img {
+    background-image: url(img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.mission {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    opacity: 1;
+    background-color: black;
+}
+
+.menu {
+    width: 1000px;
+    margin: 120px auto;
+    text-align: center;
+    position: relative;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.menu-items img {
+    height: 200px;
+    width: 300px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+.banner {
+    height: 500px;
+    width: 1200px;
+    background-image: url(img-locations-background.jpg);
+    background-size: cover;
+    margin: auto;
+}
+
+.text-top {
+    padding-top: 120px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    row-gap: 40px;
+    justify-content: space-around;
+    padding: 0 110px 0 110px;
+}
+
+.box {
+    flex-basis: 300px;
+    text-align: center;
+    background-color: black;
+}
+
+.contact {
+    height: 200px;
+}
+
+.footer {
+    text-align: left;
+    margin-left: 20px;
+}
